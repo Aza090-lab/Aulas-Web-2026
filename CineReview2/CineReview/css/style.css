@@ -1,0 +1,62 @@
+body{
+    background: url(../images/cinema.png);
+    background-repeat: repeat;
+    background-size: 440px;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1fr;
+    height: .5fr;
+    background-image: linear-gradient(to left, rgb(43, 211, 211), rgb(51, 203, 203));
+    background-position: center;
+    border-radius: 15px;
+    
+}
+
+section{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 1fr;
+    height: 1fr;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.gridtext{
+    grid-column: 5/11;
+}
+
+.gridimage{
+    grid-column: 2/3;
+}
+
+.gridtext2{
+    grid-column: 2/7;
+}
+
+.gridimage2{
+    grid-column: 9/11;
+}
