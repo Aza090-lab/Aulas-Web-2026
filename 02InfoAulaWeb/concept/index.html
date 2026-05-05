@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <input type="text" id="Nome"/>
+    <select id="Estado">
+        <option>SP</option>
+        <option>MG</option>
+    </select>
+    <select id="Color">
+        <option>red</option>
+        <option>orange</option>
+        <option>yellow</option>
+        <option>green</option>
+        <option>cyan</option>
+        <option>blue</option>
+        <option>purple</option>
+        <option>black</option>
+    </select>
+    <button onclick="mostrar()">Mostrar</button>
+
+    <script>
+
+        function mostrar(){
+            let nome = document.getElementById("Nome").value;
+            let estado = document.getElementById("Estado").value;
+            let color = document.getElementById("Color").value;
+
+            let p = document.createElement("p");
+            p.innerText = "Nome: " + nome + " Estado: " + estado;
+            document.body.append(p);
+            p.style.color = color;
+        }
+    </script>
+</body>
+</html>
