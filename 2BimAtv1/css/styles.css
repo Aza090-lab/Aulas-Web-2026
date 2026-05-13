@@ -1,4 +1,17 @@
-.prioridadeAlta{
-    color: rgb(255, 238, 206);
-    background-color: orange;
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 35 px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Lista{
+    gap: 20px;
+    padding: 12px;
+    font-size:x-large;
 }
