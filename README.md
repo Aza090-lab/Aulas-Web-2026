@@ -1,4 +1,4 @@
-# _*Repositório - 1°Bimestre de Web - 2026*_
+# _*Repositório - 1°Semestre de Web - 2026*_
 _*Aluno: Ariel Severo da Silva*_
 
 _*-Organização...*_
